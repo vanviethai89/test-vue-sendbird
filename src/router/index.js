@@ -18,6 +18,21 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
+  {
+    path: '/messenger',
+    name: 'Messenger',
+    component: () => import('../views/Messenger.vue'),
+  },
+  {
+    path: '/sync-manager',
+    name: 'SyncManager',
+    component: () => import('../views/SyncManager.vue'),
+  },
+  {
+    path: '/connection-event',
+    name: 'SendbirdConnectionEvent',
+    component: () => import('../views/SendbirdConnectionEvent.vue'),
+  },
 ];
 
 const router = new VueRouter({

@@ -2,7 +2,10 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/messenger">Messenger</router-link> |
+      <router-link to="/sync-manager">Sync Messenger</router-link> |
+      <router-link to="/connection-event">Connection event</router-link>
     </div>
     <router-view/>
   </div>

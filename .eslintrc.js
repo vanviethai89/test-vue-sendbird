@@ -7,11 +7,13 @@ module.exports = {
     'plugin:vue/essential',
     '@vue/airbnb',
   ],
-  parserOptions: {
-    parser: 'babel-eslint',
-  },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-param-reassign': ['error', { ignorePropertyModificationsFor: ['state'] }],
+    'max-len': ['error', { code: 200 }],
+  },
+  parserOptions: {
+    parser: 'babel-eslint',
   },
 };
