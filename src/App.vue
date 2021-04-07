@@ -4,6 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/messenger">Messenger</router-link> |
+      <router-link to="/messenger-2">messenger-2</router-link> |
       <router-link to="/sync-manager">Sync Messenger</router-link> |
       <router-link to="/connection-event">Connection event</router-link>
     </div>

@@ -10,8 +10,8 @@
   "dependencies": {
     "core-js": "^3.6.4",
     "eslint": "^6.8.0",
-    "sendbird": "^3.0.145",
-    "sendbird-syncmanager": "^1.1.23",
+    "sendbird": "3.0.147",
+    "sendbird-syncmanager": "1.1.23",
     "vue": "^2.6.11",
     "vue-router": "^3.1.5",
     "vuex": "^3.1.2"

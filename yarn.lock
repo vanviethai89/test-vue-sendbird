@@ -7281,17 +7281,17 @@ send@0.17.1:
     range-parser "~1.2.1"
     statuses "~1.5.0"
 
-sendbird-syncmanager@^1.1.23:
+sendbird-syncmanager@1.1.23:
   version "1.1.23"
   resolved "https://registry.yarnpkg.com/sendbird-syncmanager/-/sendbird-syncmanager-1.1.23.tgz#c9585dd31e19b5bc4482f03c6c4e476be91474da"
   integrity sha512-eB/xu1lnhVJLdDSrmod8CLhf4Kg4p4jkRb7GsZy2VZO4BUWKR5oYdojfooBG7wOXvx2P98VhQkEChe6D+isq1w==
   dependencies:
     sendbird ">=3.0.121"
 
-sendbird@>=3.0.121, sendbird@^3.0.145:
-  version "3.0.145"
-  resolved "https://registry.yarnpkg.com/sendbird/-/sendbird-3.0.145.tgz#f39040045d216ab77b85905863801fef8575f40f"
-  integrity sha512-3v1ZleUPgUwN8sZp3SpSd0vM1azKfgCH/D40pNkxaATw08obtkbwuyHs1BiGwCH/UWMXuSb0HBLrA+OXFxRFjw==
+sendbird@3.0.147, sendbird@>=3.0.121:
+  version "3.0.147"
+  resolved "https://registry.yarnpkg.com/sendbird/-/sendbird-3.0.147.tgz#9fd6d41d3129e550f40660d927a5c03ca8ac94cd"
+  integrity sha512-GlWBOXFxO3aLG7XjELVwy0777pbpq2XumXD9SGCbR5JudKBNr/EsjZdq52HCwMZrbIFk7FTgc9rVAGRK3/1dhA==
   dependencies:
     agentkeepalive "2.2.0"
     axios "^0.21.1"

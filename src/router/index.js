@@ -33,6 +33,16 @@ const routes = [
     name: 'SendbirdConnectionEvent',
     component: () => import('../views/SendbirdConnectionEvent.vue'),
   },
+  {
+    path: '/sync-manager-2',
+    name: 'SyncManager2',
+    component: () => import('../views/SyncManager2.vue'),
+  },
+  {
+    path: '/messenger-2',
+    name: 'Messenger2',
+    component: () => import('../views/Messenger2.vue'),
+  },
 ];
 
 const router = new VueRouter({
