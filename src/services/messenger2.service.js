@@ -199,6 +199,23 @@ const Messenger = {
     messageCollection.fetchSucceededMessages('prev');
   },
 
+  getTotalUnreadChannelCount() {
+    return new Promise((resolve, reject) => {
+      if (!sendBird.currentUser) {
+        resolve(0);
+      }
+
+      sendBird.getTotalUnreadChannelCount(function (count, error) {
+        if (error) {
+          resolve(0);
+          return;
+        }
+
+        resolve(count);
+      });
+    });
+  },
+
   getCurrenUser() {
     return sendBird.currentUser;
   }
